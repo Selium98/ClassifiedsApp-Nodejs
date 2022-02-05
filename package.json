@@ -1,0 +1,23 @@
+{
+  "name": "maintask",
+  "version": "1.0.0",
+  "description": "nodejs main app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "yashk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.3.1",
+    "path": "^0.12.7"
+  }
+}
